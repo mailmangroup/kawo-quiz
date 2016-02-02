@@ -15,7 +15,7 @@ gulp.task( 'server', function() {
     .pipe(webserver({
 
     	// host: 'localhost', // LOCALHOST
-    	host: '192.168.1.52', // IP SPECIFIC TO ALLOW INTEROFFICE SHARING
+    	host: '10.10.10.126', // IP SPECIFIC TO ALLOW INTEROFFICE SHARING
     	fallback: 'index.html',
       	livereload: true,
 	    port: 8000

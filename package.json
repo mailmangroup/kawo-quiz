@@ -1,0 +1,25 @@
+{
+  "name": "kawo-quiz",
+  "version": "1.0.0",
+  "description": "super simple wechat friendly quiz",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailmangroup/kawo-quiz.git"
+  },
+  "author": "fergus@kawo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mailmangroup/kawo-quiz/issues"
+  },
+  "homepage": "https://github.com/mailmangroup/kawo-quiz",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webserver": "^0.9.1",
+    "rsyncwrapper": "^1.0.0"
+  }
+}

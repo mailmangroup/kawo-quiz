@@ -80,7 +80,7 @@ gulp.task( 'staging', [ 'build' ], function() {
 
 	return rsync({
 		src: 'dist/',
-		dest: 'mailman_static:/data/web/staging.quiz.kawo.com/public',
+		dest: 'mailman_static:/data/web/staging.trump.mailmangroup.com/public',
 		ssh: true,
 		recursive: true,
 		exclude: [ '*.json', 'node_modules/*' ],
@@ -104,12 +104,12 @@ gulp.task( 'deploy', [ 'build' ], function() {
 	// REPLACE GOOGLE ANALYTICS ID
 	gulp.src([ 'dist/**/*.html' ])
     	.pipe( replace( 'UA-39611373-2', 'UA-39611373-4' ) )
-    	.pipe( replace( 'staging.quiz.kawo.com', 'auto' ) )
+    	.pipe( replace( 'staging.trump.mailmangroup.com', 'auto' ) )
     	.pipe( gulp.dest( 'dist/' ) );
 
 	return rsync({
 		src: 'dist/',
-		dest: 'mailman_static:/data/web/quiz.kawo.com/public',
+		dest: 'mailman_static:/data/web/trump.mailmangroup.com/public',
 		ssh: true,
 		recursive: true,
 		exclude: [ '*.json', 'node_modules/*' ],

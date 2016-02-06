@@ -1,68 +1,60 @@
 var data = {
-	questions: [{"question":{"en":"On average, what time are people most active on WeChat?","zh":"一般来说，用户一天内使用微信最多的是几点？"},"choices":[{"en":"22:00","zh":""},{"en":"12:00","zh":""},{"en":"16:30","zh":""},{"en":"9:45","zh":""}],"answer": "A","response":{"en":"On average, netizens were most active on WeChat at 22:00 in 2015.","zh":"根据2015年的统计，微信用户最爱在晚上10点左右使用该软件。"}},{"question":{"en":"Where do 80% of WeChat users find WeChat articles?","zh":"80%的微信用户是怎么寻找微信公众号的文章的？"},"choices":[{"en":"WeChat Broadcast Messages","zh":"微信公众号推送"},{"en":"WeChat Moments","zh":"微信朋友圈"},{"en":"WeChat Shake it off","zh":"摇一摇"},{"en":"WeChat Walkie Talkie","zh":"微信即时对讲聊天"}],"answer": "B","response":{"en":"80% of WeChat users find WeChat articles on WeChat Moments.","zh":"80%的微信用户通过微信朋友圈看到微信文章。"}},{"question":{"en":"What are the top 3 categories of articles on WeChat by number of readers and sharing?","zh":"哪三种类型的文章在微信阅读和分享量最多？"},"choices":[{"en":"Pathology, Healthcare, and domestic travel ","zh":"养生，健康，国内旅游"},{"en":"Emotional life, company management, and cooking","zh":"情感生活，公司管理，烹饪"},{"en":"Emotional life, healthcare, and politics & law","zh":"情感生活，健康，法律法规"},{"en":"Domestic Travel, emotional life, politics & law news","zh":"国内旅游，情感生活，法律法规"}],"answer": "C","response":{"en":"The top 3 categories of articles on WeChat by number of readers and sharing are Emotional Life, Healthcare, and Politics & Law","zh":"情感生活，健康以及法律法规类的文章是微信中阅读和分享量最高的三种文章。"}},{"question":{"en":"How many e-commerce vendors are connected through the WeChat platform?","zh":"大约一共有多少微信公众号？"},"choices":[{"en":"8,000-10,000","zh":""},{"en":"6,000-8,000","zh":""},{"en":"4,000-6,000","zh":""},{"en":"2,000-4,000","zh":""}],"answer": "D","response":{"en":"2,433 vendors are connected through the WeChat platform. 18,882 vendors are still awaiting approval.","zh":"在微信平台中一共有2645个公众号。"}},{"question":{"en":"How much money can you transfer each month before WeChat Payment charges a transaction fee?","zh":"每月微信支付可以允许用户免手续费转账多少钱？"},"choices":[{"en":"20,000 RMB","zh":""},{"en":"8,000 RMB","zh":""},{"en":"30,000RMB","zh":""},{"en":"15,000RMB","zh":""}],"answer": "A","response":{"en":"You can transfer up to 20,000 RMB each month before WeChat Payment charges a transaction fee.","zh":"每月微信支付可以允许用户免手续费转账20000元。"}},{"question":{"en":"Tencent invested in what movie that ended up being the highest-grossing Chinese movie in history?","zh":"腾讯投资于哪个电影，并成为中国历史票房最高的电影？"},"choices":[{"en":"Lost in Thailand","zh":"泰囧"},{"en":"Goodbye Mr. Loser","zh":"夏洛特烦恼"},{"en":"Monster Hunt","zh":"捉妖记"},{"en":"Furious 7","zh":"速度与激情 7"}],"answer": "C","response":{"en":"Tencent invested in the domestic film Monster Hunt, which has grossed over $260 million in China.","zh":"腾讯投资在混合真人和动画国产电影《捉妖记》，它在中国的票房收入超过2亿6000万美元。"}},{"question":{"en":"How many WeChat articles does the average WeChat user read per day?","zh":"每位用户每天会阅读多少篇公众号文章？"},"choices":[{"en":"2.74","zh":""},{"en":"5.86","zh":""},{"en":"7.32","zh":""},{"en":"10.48","zh":""}],"answer": "B","response":{"en":"The average WeChat user reads 5.86 WeChat articles daily.","zh":"每位微信用户每天平均阅读5.86篇微信文章。"}},{"question":{"en":"How long does the average Chinese adult read on WeChat per day?","zh":"每位用户每天会花多少时间在阅读微信文章？"},"choices":[{"en":"20 minutes / 20 分钟","zh":""},{"en":"40 minutes / 40 分钟","zh":""},{"en":"80 minutes / 80 分钟","zh":""},{"en":"160 minutes / 160 分钟","zh":""}],"answer": "C","response":{"en":"The average Chinese adult reads for 80 minutes on WeChat per day.","zh":"每位微信用户每天平均阅读微信文章的时间为80分钟。"}},{"question":{"en":"Which Chinese platform is the equivalent to Vine?","zh":"哪个中国的平台更类似于Vine？"},"choices":[{"en":"Weishi/Miaopai","zh":"秒拍"},{"en":"Meitu","zh":"美图秀秀"},{"en":"Bilibili","zh":"哔哩哔哩弹幕视频网"},{"en":"Xiaokaxiu","zh":"小咖秀"}],"answer": "A","response":{"en":"Weishi/Miaopai are often considered the 'Chinese Vines'.","zh":"微视/秒拍被认为是中国的Vine。"}},{"question":{"en":"Which apps were affected by the XcodeGhost hack in the apple store this year?","zh":"哪些软件被 XcodeGhost 在苹果软件商城被黑客影响到？"},"choices":[{"en":"WeChat, Didi Kuaidi, NetEase","zh":"微信，快的打车，网易"},{"en":"Whatsapp, QQ","zh":""},{"en":"Baidu Map, Youku, Taobao","zh":"百度地图，优酷，淘宝"},{"en":"Tencent Video, T-Mall","zh":"腾讯视频，天猫"}],"answer": "A","response":{"en":"WeChat, Didi Kuaidi, and NetEase were all affected by the XcodeGhost hack in the Apple app store in 2015.","zh":"微信，快的打车，网易全部在2015年受到了 XcodeGhost 在苹果软件商场的黑客攻击。"}},{"question":{"en":"Which Chinese tech company invested $50 million in Kik Messenger? ","zh":"中国的哪家科技公司在Kik上投资了5000万美金？"},"choices":[{"en":"Tencent","zh":"腾讯"},{"en":"Jiayuan","zh":"家园"},{"en":"Sina Corporation ","zh":"新浪"},{"en":"Xiaomi","zh":"小米"}],"answer": "A","response":{"en":"In Aug. 2015, Chinese tech-giant Tencent invested $50 million in Kik Messenger valuing Kik at $1 billion.","zh":"2015年8月，腾讯投资5千万美金在估值10亿的Kik中。"}},{"question":{"en":"Which of these apps does not exist?","zh":"哪个手机软件已经不存在了？"},"choices":[{"en":"Didi DaRen (a service to have someone beaten)","zh":"滴滴打人"},{"en":"Dafeiji (a game that chose the name of slang for male masturbation)","zh":"打飞机"},{"en":"Didi","zh":"滴滴"},{"en":"Gou rou haochi (an app to find dog meat restaurants nearby)","zh":"狗肉好吃"}],"answer": "D","response":{"en":"Gou rou haochi (an app used to find dog meat restaurants nearby) is NOT an actual app.","zh":"狗肉好吃（一款找吃狗肉餐厅的软件）已经消失了。"}},{"question":{"en":"What is the most popular cab hailing service in China? ","zh":"以下哪个叫车服务在中国最流行？"},"choices":[{"en":"Uber ","zh":"优步"},{"en":"Didi DaChe","zh":"滴滴打车"},{"en":"Didi KuaiDi","zh":"快的打车"},{"en":"Hitchhiking ","zh":"搭便车"}],"answer": "B","response":{"en":"The most popular cab hailing service in China is Didi DaChe.","zh":"滴滴打车是在中国最流行的打车软件。"}},{"question":{"en":"What percentage of the $9.34 billion in Single's Day sales were made via Mobile?","zh":"双十一购物节产生的93.4亿销售额中有百分之多少是通过手机付款的？"},"choices":[{"en":"39.40%","zh":""},{"en":"59.30%","zh":""},{"en":"42.60%","zh":""},{"en":"76.20%","zh":""}],"answer": "C","response":{"en":"A whopping 42.6% of Single's Day's $9.34 billion in sales were made via mobile.","zh":"双十一产生的93.4亿美金销售额中有42.6％的付款是通过手机完成的。"}},{"question":{"en":"With which Chinese company did the NBA sign a 5 year deal?","zh":"中国哪个公司和NBA签署了5年的合作合同？"},"choices":[{"en":"Alibaba","zh":"阿里巴巴"},{"en":"Tencent","zh":"腾讯"},{"en":"Jiayuan ","zh":"家园"},{"en":"Sina Corporation","zh":"新浪"}],"answer": "B","response":{"en":"In Jan. 2015, internet giant Tencent and the NBA signed a 5-yr deal valued at $700 million making Tencent the exclusive digital partner of the NBA. ","zh":"2015年1月，网络界的巨头腾讯和NBA签署了5年7亿美金的合同，腾讯也成为NBA的独家数字合作伙伴。"}},{"question":{"en":"How many acquisitions has Alibaba made since 2014? ","zh":"阿里巴巴从2014年以来一共收购了多少公司？"},"choices":[{"en":"35","zh":""},{"en":"47","zh":""},{"en":"67","zh":""},{"en":"OVER 9,000 / 大于 9,000","zh":""}],"answer": "B","response":{"en":"Since 2014, Alibaba has made over 47 acquisitons spending $13.4 billion in the process.","zh":"从2014年，阿里巴巴花费134亿收购47家公司。"}},{"question":{"en":"Which Premier League team signed an agreement with PPTV  to launch official branded TV's & programming?","zh":"哪个英超球队和PPTV签署官方电视合作合同？"},"choices":[{"en":"Manchester United FC","zh":"曼联足球俱乐部"},{"en":"Chelsea FC","zh":"切尔西足球俱乐部"},{"en":"Liverpool FC","zh":"利物浦足球俱乐部"},{"en":"Arsenal FC","zh":"阿森纳足球俱乐部"}],"answer": "C","response":{"en":"In Nov. 2015, Mailman Group brokered an agreement between Liverpool FC and PPTV to launch official branded TV's & programming.","zh":"2015年11月，在上海邮人商务咨询有限公司的牵线和帮助下，利物浦与PPTV达成了一份官方电视的合作协议。"}},{"question":{"en":"How many Youku users spend an average of an hour or more a day on Youku?","zh":"多少用户每天会花一个小时以上的时间通过优酷看视频？"},"choices":[{"en":"40 million / 4,000 万","zh":""},{"en":"60 million / 6,000 万","zh":""},{"en":"80 million / 8,000 万","zh":""},{"en":"100 million / 1 亿","zh":""}],"answer": "A","response":{"en":"It's reported that 40 million netizens spend an average of an hour or more per day on Youku.","zh":"据报道，每天会有4000万的网络用户会花一个小时以上时间在看优酷视频上。"}},{"question":{"en":"Tencent signed deals with Disney and 20th Century Fox to bring which science fiction series to China?","zh":"腾讯和迪士尼和20世纪福克斯公司签约将哪个科幻电影系列带到了中国？"},"choices":[{"en":"Star Wars","zh":"星球大战"},{"en":"Tron","zh":"创：战斗记"},{"en":"Monster's Inc. ","zh":"怪物的公司"},{"en":"Tomorrowland ","zh":"明日世界"}],"answer": "A","response":{"en":"In Sep. 2015, Tencent signed deals with Disney and 20th Century Fox to be the exclusive online provider of Star Wars in mainland China.","zh":"2015年9月，腾讯和迪士尼，20世纪福克斯签署合同，成为中国地区《星球大战》独家TVOD和SVOD在线合作伙伴。"}},{"question":{"en":"How many of China's 1.37 billion citizens are active social media users?","zh":"13亿中国人口中有多少社交媒体的用户？"},"choices":[{"en":"847 million / 8.47 亿","zh":""},{"en":"792 million / 7.92 亿","zh":""},{"en":"2.999 billion / 29.99 亿","zh":""},{"en":"659 million / 6.59 亿","zh":""}],"answer": "D","response":{"en":"China sports a staggering 659 million active social media users. That's more than twice the population of the USA!","zh":"中国的活跃社交媒体用户有6.59 亿，是美国的用户的两倍"}},]
+	questions: [{"answer": "true", "question": {"en": "Is it true that Trump sold an apartment in China for 15 million dollars?", "zh": "\u7279\u6717\u666e\u5728\u4e2d\u56fd\u4ee51\u5343500\u4e07\u7f8e\u5143\u7684\u4ef7\u683c\u5356\u4e86\u4e00\u95f4\u516c\u5bd3\u662f\u4e0d\u662f\u771f\u7684\uff1f"}, "id": 5, "response": {"en": "He did and this is one of the reasons why he says he really loves China!", "zh": "\u4ed6\u786e\u5b9e\u505a\u4e86\uff0c\u8fd9\u4e5f\u662f\u4ed6\u8bf4\u4ed6\u559c\u6b22\u4e2d\u56fd\u7684\u539f\u56e0\u4e4b\u4e00\u3002"}}, {"answer": "false", "question": {"en": "Trump said: \u201cWe\u2019re going to get Apple to start building their damn computers and things in this country instead of in other countries\u201d. Would it be better if Apple products were manufactured in America?", "zh": "\u201c\u6211\u4eec\u5c06\u8ba9\u82f9\u679c\u516c\u53f8\n\u5728\u7f8e\u56fd\u751f\u4ea7\u4ed6\u4eec\u7684\u7535\u8111\u548c\u5176\u4ed6\u4ea7\u54c1\uff0c\n\u800c\u4e0d\u662f\u5728\u5176\u4ed6\u56fd\u5bb6\u201d\n\u82f9\u679c\u516c\u53f8\u5728\u7f8e\u56fd\u751f\u4ea7\u52a0\u5de5\u4ed6\u4eec\u7684\u4ea7\u54c1\n\u662f\u4e0d\u662f\u66f4\u597d"}, "id": 2, "response": {"en": "It isn't just that workers have a competitive price in China: they are better trained and faster, making it impossible to compete with. If Apple products were manufactured in the U.S., it would cost 3 times more - bad idea Mr. Trump!", "zh": "\u4e2d\u56fd\u4e0d\u4f46\u62e5\u6709\u5ec9\u4ef7\u7684\u52b3\u52a8\u529b,\n\u90a3\u91cc\u7684\u5de5\u4eba\u4e5f\u66f4\u52a0\u8bad\u7ec3\u6709\u7d20,\u505a\u4e8b\u60c5\n\u4e5f\u66f4\u5feb,\u8fd9\u6837\u624d\u8ba9\u4ed6\u4eec\u5145\u6ee1\u7ade\u4e89\u529b\n\u5982\u679c\u82f9\u679c\u4ea7\u54c1\u662f\u5728\u7f8e\u56fd\u751f\u4ea7\u7684,\n\u90a3\u5c06\u4f1a\u6d88\u8017\u4e09\u500d\u7684\u6210\u672c\u3002\n\u6240\u4ee5\u7279\u6717\u666e\u5148\u751f\uff0c\n\u90a3\u53ef\u4e0d\u662f\u4e2a\u597d\u4e3b\u610f"}}, {"answer": "true", "question": {"en": "Trump said: \"By the way, Libya supplies the oil for China. We (America) get no oil from Libya\u201d. Is he right?", "zh": "\u7279\u6717\u666e\u8bf4\u5230\uff0c \u201c\u53e6\u5916\uff0c\u5229\u6bd4\u4e9a\u4e3a\u4e2d\u56fd\u63d0\u4f9b\u539f\u6cb9\uff0c\u4f46\u5374\u5e76\u6ca1\u6709\u4e3a\u6211\u4eec\uff08\u7f8e\u56fd\uff09\u63d0\u4f9b\u3002\u201d"}, "id": 8, "response": {"en": "While Libya does supply some oil to China, the U.S. gets some of its oil from Libya too.", "zh": "\u5c3d\u7ba1\u5229\u6bd4\u4e9a\u786e\u5b9e\u4e3a\u4e2d\u56fd\u63d0\u4f9b\u4e86\u90e8\u5206\u7684\u539f\u6cb9\uff0c\u4f46\u7f8e\u56fd\u4e5f\u4ece\u5229\u6bd4\u4e9a\u90a3\u91cc\u5f97\u5230\u4e86\u90e8\u5206\u539f\u6cb9\u4f9b\u5e94\n\n"}}, {"answer": "true", "question": {"en": "True or false: Trump once compared Chinese leaders to Tom Brady and the New England Patriots.", "zh": "\u7279\u6717\u666e\u6709\u4e00\u6b21\u62ff\u4e2d\u56fd\u7684\u9886\u5bfc\u4eba\u4e0e\u6c64\u59c6 \u5e03\u62c9\u8fea\u4ee5\u53ca\u65b0\u82f1\u683c\u5170\u7231\u56fd\u8005\u6bd4\u8f83\n"}, "id": 9, "response": {"en": "When comparing \u201csmarter\u201d Chinese leaders to American leaders, Trump said it was like Tom Brady and the Patriots playing your high school football team.", "zh": "\u5f53\u6bd4\u8f83\u201c\u66f4\u806a\u660e\u7684\u201d\u4e2d\u56fd\u9886\u5bfc\u4eba\u4e0e\u7f8e\u56fd\u9886\u5bfc\u4eba\u65f6\uff0c\u7279\u6717\u666e\u8bf4\u8fd9\u5c31\u597d\u50cf\u6c64\u59c6\u5e03\u62c9\u8fea\u548c\u7231\u56fd\u8005\u4eec\u5728\u9ad8\u4e2d\u6a44\u6984\u7403\u961f\u73a9\u4e00\u6837"}}, {"answer": "false", "question": {"en": "Donald Trump once claimed \u201cThe concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.\u201d Is this actually the case?", "zh": "\u5168\u7403\u53d8\u6696\u7684\u6982\u5ff5\u662f\u4e2d\u56fd\u4eba\u521b\u9020\u51fa\u6765\u7684\uff0c\u4e3a\u7684\u662f\u8ba9\u7f8e\u56fd\u7684\u5236\u9020\u4e1a\u5931\u53bb\u7ade\u4e89\u529b\n\u8fd9\u662f\u5bf9\u7684\u8fd8\u662f\u9519\u7684\uff1f"}, "id": 4, "response": {"en": "It is true that China has had big impact on global warming, but it\u2019s not the only country responsible for it. The Chinese 13th five-year plan aims to ban logging forests completely, which is a very big step in reducing carbon dioxide emissions.", "zh": "\u786e\u5b9e\u4e2d\u56fd\u5728\u5168\u7403\u53d8\u6696\u7684\u8fdb\u7a0b\u4e2d\u5f71\u54cd\u5de8\u5927\uff0c\u4f46\u4e2d\u56fd\u8fd9\u5e76\u4e0d\u662f\u552f\u4e00\u8be5\u5bf9\u5168\u7403\u53d8\u6696\u8d1f\u8d23\u7684\u56fd\u5bb6\u3002\u4e2d\u56fd\u7684\u201c\u5341\u4e09\u4e94\u8ba1\u5212\u201d\u4e2d\u6307\u51fa\uff0c\u7981\u6b62\u5927\u89c4\u6a21\u780d\u4f10\u68ee\u6797\uff0c\u8fd9\u662f\u4e3a\u51cf\u5c11\u4e8c\u6c27\u5316\u78b3\u6392\u653e\u91cf\u8fc8\u51fa\u7684\u4e00\u5927\u6b65\u3002"}}, {"answer": "false", "question": {"en": "Trump once accused China saying, \"They manipulate the hell out of their currency, which just kills us.\" Is he correct?", "zh": "\u4ed6\u4eec\u62fc\u547d\u64cd\u7eb5\u4ed6\u4eec\u7684\u8d27\u5e01\uff0c\n\u90a3\u6837\u8db3\u4ee5\u6740\u6b7b\u6211\u4eec"}, "id": 3, "response": {"en": "From 1995-2014 the yuan has been appreciating, with an exchange rate to USD of 34% since 2007. In fact, China has recently opened its currency value to be determined by the market, showing a reduction in currency manipulation.", "zh": "1995\u5e74-2014\u5e74,\n\u4eba\u540d\u5e01\u4e00\u76f4\u5728\u5347\u503c,\u4ece2007\u5e74\u4ee5\u6765\n\u4eba\u540d\u5e01\u548c\u7f8e\u5143\u7684\u6c47\u7387\u662f34%\uff0c\n\u4e8b\u5b9e\u4e0a\u4e2d\u56fd\u8fd1\u6765\n\u5f00\u653e\u4e86\u4ed6\u4eec\u7684\u6c47\u7387\u653f\u7b56\n\u6539\u7531\u5e02\u573a\u51b3\u5b9a,\u901a\u8fc7\u6c47\u7387\u64cd\u63a7\uff0c\n\u4ed6\u4eec\u7684\u6c47\u7387\u76f4\u7ebf\u4e0b\u964d\u3002"}}, {"answer": "false", "question": {"en": "Donald Trump Claims \u201cthe TPP is a Nefarious Plot by China.\" Is this a fair assessment?", "zh": "\u5510\u7eb3\u5fb7 \u7279\u6717\u666e\u58f0\u79f0\n\"\u6cdb\u592a\u5e73\u6d0b\u4f19\u4f34\u5173\u7cfb\u534f\u8bae\"\u7ec4\u7ec7\n\u662f\u4e2d\u56fd\u7684\u4e00\u4e2a\u90aa\u6076\u7684\u9634\u8c0b"}, "id": 1, "response": {"en": "The Trans-Pacific Partnership, if approved, would eliminate more than 18,000 taxes on American products across the 11 countries that are a part of the deal - and China isn't one of them!", "zh": "\"\u6cdb\u592a\u5e73\u6d0b\u4f19\u4f34\u5173\u7cfb\u534f\u8bae\"\u7ec4\u7ec7\uff0c\n\u5982\u679c\u901a\u8fc7\u7684\u8bdd\u5c06\u4f1a\u51cf\u514d\u7f8e\u56fd\n\u5bf911\u4e2a\u56fd\u5bb6\u7684\u591a\u4e8e18000\u7684\u7a0e,\n\u7136\u800c\u4e2d\u56fd\u5e76\u4e0d\u662f\u4ed6\u4eec\u4e2d\u7684\u4e00\u4e2a"}}, {"answer": "false", "question": {"en": "Trump declared: \u201cI\u2019ll bring back our jobs from China, from Mexico, from Japan, from so many places. I\u2019ll bring back our jobs, and I\u2019ll bring back our money.\u201d Is this possible?", "zh": "\u7279\u6717\u666e\u58f0\u79f0,\u201c\u6211\u4f1a\u628a\u5c5e\u4e8e\u6211\u4eec\n\u7f8e\u56fd\u4eba\u7684\u5de5\u4f5c\u4ece\u4e2d\u56fd,\u4ece\u58a8\u897f\u54e5,\n\u65e5\u672c\u4ee5\u53ca\u5176\u4ed6\u5730\u65b9\u5e26\u56de\u5230\u7f8e\u56fd\n,\u6211\u4f1a\u5e26\u56de\u6211\u4eec\u7684\u5de5\u4f5c,\u8fd8\u6709\u5c5e\u4e8e\n\u6211\u4eec\u7684\u94b1\u201d\n\u8fd9\u662f\u53ef\u80fd\u7684\u5417\uff1f"}, "id": 10, "response": {"en": "Many economists find this \u201ccompletely implausible\u201d. Technology has taken many of those jobs for good. Today\u2019s high-tech factories employ a fraction of the workers they used to. Now, even China is losing some of their low wage manufacturing jobs to countries like Bangladesh and Vietnam.", "zh": "\u8bb8\u591a\u7ecf\u6d4e\u5b66\u5bb6\u90fd\u8bf4,\n\u8fd9\u662f\u5b8c\u5168\u4e0d\u53ef\u80fd\u7684\u3002\n\u79d1\u6280\u5df2\u7ecf\u8ba9\u5f88\u591a\u5de5\u4f5c\u90fd\u4e0d\u590d\u5b58\u5728\n\u5982\u4eca\u7684\u9ad8\u79d1\u6280\u5de5\u5382\u53ea\u96c7\u7528\u4e86\u8fc7\u53bb\n\u5de5\u5382\u7684\u90e8\u5206\u5de5\u4eba\n\u73b0\u5728\u751a\u81f3\u4e2d\u56fd\u4e5f\u5931\u53bb\u4e86\u4e00\u4e9b\u4f4e\u62a5\u916c\n\u7684\u5236\u9020\u4e1a\u7684\u5de5\u4f5c\u3002\u8fd9\u4e9b\u5de5\u4f5c\u6d41\u5411\u4e86\n\u50cf\u5b5f\u52a0\u62c9\u56fd\u8d8a\u5357\u8fd9\u6837\u7684\u56fd\u5bb6\u3002"}}, {"answer": "false", "question": {"en": "Trump said that \u201cIt's very, very hard to come into China. And yet, we welcome them with open arms\u201d. Is he right about this?", "zh": "\u7279\u6717\u666e\u8bf4\uff1a\u60f3\u8981\u8d70\u8fdb\u4e2d\u56fd\u662f\u5f88\u96be\u7684\uff0c\u7136\u800c\u4ed6\u5374\u5f20\u5f00\u53cc\u81c2\u6b22\u8fce\u4e2d\u56fd\u3002\u8fd9\u662f\u771f\u662f\u5047"}, "id": 7, "response": {"en": "China has protectionist policies, especially when it comes to foreign companies. The U.S. can be considered more \u201copen\u201d when it comes to trade policies, but each country has its own system making it difficult to compare.\n", "zh": "\u4e2d\u56fd\u6709\u7740\u4fdd\u62a4\u4e3b\u4e49\u653f\u7b56\uff0c\u5c24\u5176\u662f\u9762\u5bf9\u5916\u8d44\u4f01\u4e1a\u7684\u65f6\u5019\u3002\u5c31\u8d38\u6613\u653f\u7b56\u6765\u8bf4\u7f8e\u56fd\u53ef\u4ee5\u88ab\u8ba4\u4e3a\u662f\u66f4\u5f00\u653e\u7684\u3002\u4f46\u662f\u6bcf\u4e2a\u56fd\u5bb6\u90fd\u6709\u4ed6\u4eec\u81ea\u8eab\u7684\u4f53\u7cfb\uff0c\u8fd9\u4e5f\u8ba9\u56fd\u5bb6\u4e4b\u95f4\u7684\u653f\u7b56\u53d8\u7684\u4e0d\u53ef\u6bd4\u8f83\u3002"}}, {"answer": "false", "question": {"en": "Trump boasted that he would raise the tariff on Chinese exports to the United States to 45% in order to reduce competitivity in trading market. Would this benefit world trade?", "zh": "\u7279\u6717\u666e\u8bf4\u4ed6\u4f1a\u5bf9\u4e2d\u56fd\u51fa\u53e3\u7f8e\u56fd\u7684\u5546\u54c1\n\u4e0a\u8c03\u81f345%\u7684\u5173\u7a0e\uff0c\n\u4e3a\u7684\u662f\u51cf\u5c11\u4ea4\u6613\u5e02\u573a\u7684\u7ade\u4e89,\n\u8fd9\u5bf9\u4e16\u754c\u8d38\u6613\u4f1a\u6709\u76ca\u5904\u5417\uff1f"}, "id": 6, "response": {"en": "We\u2019re all looking for a better quality and price, so why would we want to pay more money for goods made in China? \nChina produces about 80% of the world\u2019s air-conditioners, 70% of its mobile phones and 60% of its shoes. So, if you love \u201cchilling\u201d with your iPhone and new shoes, let\u2019s keep it how it is!", "zh": "\u6211\u4eec\u90fd\u5e0c\u671b\u4e2d\u56fd\u5236\u9020\u7684\u5546\u54c1\n\u8d28\u91cf\u66f4\u597d\u4e5f\u66f4\u4fbf\u5b9c\uff0c\n\u90a3\u4e48\u6211\u4eec\u4e3a\u4ec0\u4e48\u8981\u4e3a\u4e2d\u56fd\u5236\u9020\u7684\u5546\n\u54c1\u4ed8\u66f4\u591a\u7684\u94b1\u5462\uff1f\n\u4e2d\u56fd\u5236\u9020\u7684\u5546\u54c1\u5360\u636e\u4e86\n\u4e16\u754c\u7a7a\u8c03\u5e02\u573a\u768480%\uff0c\n\u624b\u673a\u5e02\u573a\u768470%\n\u978b\u5b50\u5e02\u573a\u768460%,\u5982\u679c\u4f60\u8fd8\u60f3\n\u591a\u5c1d\u8bd5\u65b0\u7684iphone\u6216\u8005\u65b0\u978b\u5b50\n\u90a3\u6211\u4eec\u8fd8\u662f\u4fdd\u6301\u73b0\u6709\u7684\u72b6\u6001\u5427"}}]
 }
 
 var images = {
+	question: [
+		'q1.png',
+		'q2.png',
+		'q3.png',
+		'q4.png',
+		'q5.png',
+		'q6.png',
+		'q7.png',
+		'q8.png',
+		'q9.png',
+		'q10.png'
+	],
 	correct: [
-		'icon_007.gif',
-		'icon_001.gif',
-		'correct_01.gif',
-		'correct_02.gif',
-		'correct_03.gif',
-		'correct_04.gif',
-		'correct_05.gif',
-		'correct_06.gif',
-		'correct_07.gif',
-		'correct_08.gif',
-		'correct_09.gif',
-		'correct_10.gif',
-		'correct_11.gif',
-		'correct_12.gif',
-		'correct_13.gif',
-		'correct_14.gif',
-		'correct_15.gif',
-		'correct_16.gif',
-		'correct_17.gif',
-		'correct_18.gif',
-		'correct_19.gif',
-		'correct_20.gif'
+		'g1.gif',
+		'g2.gif',
+		'g3.gif',
+		'g4.gif',
+		'g5.gif',
+		'g6.gif',
+		'g7.gif',
+		'g8.gif'
 	],
 	incorrect: [
-		'icon_024.gif',
-		'icon_002.gif',
-		'icon_009.gif',
-		'icon_033.gif',
-		'incorrect_01.gif',
-		'incorrect_02.gif',
-		'incorrect_03.gif',
-		'incorrect_04.gif',
-		'incorrect_05.gif',
-		'incorrect_06.gif',
-		'incorrect_07.gif',
-		'incorrect_08.gif',
-		'incorrect_09.gif',
-		'incorrect_10.gif',
-		'incorrect_11.gif',
-		'incorrect_12.gif',
-		'incorrect_13.gif',
-		'incorrect_14.gif',
-		'incorrect_15.gif',
-		'incorrect_16.gif',
-		'incorrect_17.gif',
-		'incorrect_18.gif',
-		'incorrect_19.gif',
-		'incorrect_20.gif',
+		'b1.gif',
+		'b2.gif',
+		'b3.gif',
+		'b4.gif',
+		'b5.gif',
+		'b6.gif',
+		'b7.gif',
+		'b8.gif',
 	]
 }
 
 var seenImages = {
+	question: [],
 	correct: [],
 	incorrect: []
 }
 
+// LOAD LANGUAGE BASED ON HASHBANG, FOR SHARING
+var lang = 'en';
+if(location.hash && location.hash == '#zh')
+	lang = 'zh';
+
+
+// HELPER FUNCTION
+// PICK AN IMAGE THAT HASNT BEEN SEEN TO DISPLAY
+// ===============================================================================
 function imageSelect ( options ) {
 
-	if ( images ) {
+	/*if ( images && images.hasOwnProperty(options) ) {
 
 		for ( var i = 0; i < images[ options ].length; i++ ) {
 
@@ -82,13 +74,33 @@ function imageSelect ( options ) {
 
 		}
 
+	}*/
+	
+	// wouldn't the following be much more efficient? :
+	if( images && images.hasOwnProperty(options) ) {
+
+		// GENERATE INDEX BETWEEN 0 AND IMAGE ARRAY LENGTH
+		var random = Math.floor( Math.random() * images[ options ].length );
+
+		// GET THE IMAGE URL FROM THE ARRAY
+		var img = images[ options ][ random ];
+		
+		// PUSH IMAGE URL TO SEEN IMAGES ARRAY
+		seenImages[ options ].push( img );
+
+		// REMOVE THE CHOSEN IMAGE FROM THE IMAGES ARRAY
+		seenImages[ options ].splice( random, 1 );
+
+		// RETURN THE IMAGE
+		return img;
+	
 	}
 
 }
 
 // CREATE SCREEN FUNCTION
 // ===============================================================================
-function Screen ( textElement ) {
+function Screen ( textElement , image ) {
 
 	this.el = document.createElement( 'section' );
 	this.el.className = 'main-wrapper';
@@ -98,15 +110,25 @@ function Screen ( textElement ) {
 
 	this.textWrapper = document.createElement( 'div' );
 	this.text = {};
+
 	this.text.zh = document.createElement( textElement );
 	this.text.en = document.createElement( textElement );
 
 	this.choiceList = document.createElement( 'div' );
 	this.choiceList.className = 'btn-list';
 
+	if(image){
+		this.image = document.createElement( 'img' );
+		this.image.className = 'img-full';
+		this.image.src = image;
+		this.article.appendChild( this.image );
+	}
+
 	this.article.appendChild( this.textWrapper );
-	this.textWrapper.appendChild( this.text.zh );
-	this.textWrapper.appendChild( this.text.en );
+	if(lang == 'zh')
+		this.textWrapper.appendChild( this.text.zh );
+	else
+		this.textWrapper.appendChild( this.text.en );
 	this.article.appendChild( this.choiceList );
 
 	return this;
@@ -140,9 +162,11 @@ var quiz = {
 
 	incorrect: [],
 
+	// UPDATE PROGRESS BAR FUNCTION
+	// ===============================================================================
 	updateBar: function ( bar, question, dataLength ) {
 
-		bar.text.innerHTML = ( parseInt( question ) + 1 ) + ' of ' + dataLength;
+		bar.text.innerHTML = ( parseInt( question ) + 1 ) + ' / ' + dataLength;
 		bar.inner.style.width = ( ( parseInt( question ) + 1 ) / dataLength ) * 100 + '%';
 
 		return bar;
@@ -164,6 +188,19 @@ var quiz = {
 
 		this.shadowBar = new progressBar();
 
+		// IF LAST QUESTION ANSWERED BUT DIDNT CLICK FINISH › RUN FINISH FUNCTION
+		if ( localStorage.getItem( 'progress' ) && this.data.questions.length === localStorage.getItem( 'progress' ).length ) {
+
+			var results = JSON.parse( localStorage.getItem( 'answers' ) );
+
+			window.ga && ga( 'send', 'event', 'finish-quiz', 'Finish Quiz', results.correct.length.toString() + '/' + ( results.correct.length + results.incorrect.length ).toString() );
+
+			window.mixpanel && mixpanel.track( 'finish-quiz', { question: 'Finish Quiz', label: results.correct.length.toString() + '/' + ( results.correct.length + results.incorrect.length ).toString(), } );
+
+			this.finishQuiz( results.correct );
+
+		}
+
 		// RUN FIRST NEXT QUESTION CALL ON INIT
 		this.setQuestion( this.data, document.getElementById( 'target' ) );
 
@@ -180,15 +217,17 @@ var quiz = {
 	// ===============================================================================
 	setQuestion: function ( data, target ) {
 
-		this.questionScreen = new Screen( 'h2' );
+		this.questionScreen = new Screen( 'h2', './images/' + imageSelect( 'question' ) );
 
 		var $this = this,
 			theQuestion = data.questions[ this.currentQuestion ],
 			screen = this.questionScreen;
 
 		// APPEND PROGRESS BAR
-		if ( screen.article && screen.article.parentNode ) screen.article.parentNode.insertBefore( this.progress.el, screen.article );
+		if ( screen.article && screen.article.parentNode )
+			screen.article.parentNode.insertBefore( this.progress.el, screen.article );
 
+		// UPDATE PROGRESS BAR
 		this.updateBar( this.progress, this.currentQuestion, data.questions.length );
 
 		// SET TEXT OF QUESTIONS
@@ -196,15 +235,13 @@ var quiz = {
 		screen.text.en.innerHTML = theQuestion.question.en;
 
 		screen.choice = [
-			{ label: 'a', text: {} },
-			{ label: 'b', text: {} },
-			{ label: 'c', text: {} },
-			{ label: 'd', text: {} },
+			{ label: 'true', text: '&nbsp;' },
+			{ label: 'false', text: '&nbsp;' }
 		]
 
 		// SET HTML AND EVENT LISTENER OF CHOICES
 		// ===========================================================================
-		for ( var i = 0; i < theQuestion.choices.length; i ++ ) {
+		for ( var i = 0; i < screen.choice.length; i ++ ) {
 
 			var choice = screen.choice[ i ];
 
@@ -213,18 +250,13 @@ var quiz = {
 			if ( !choice.el ) {
 
 				choice.el = document.createElement( 'div' );
-				choice.el.className = 'choice';
+				choice.el.className = 'choice ' + choice.label;
 				choice.el.setAttribute( 'data-label', choice.label );
 
 				// CREATE CHOICE BUTTON
 				choice.button = document.createElement( 'button' );
 				choice.button.className = 'btn';
-				choice.button.innerHTML = choice.label;
-
-				// CREATE CHOICE TEXT
-				choice.text.wrapper = document.createElement( 'div' );
-				choice.text.zh = document.createElement( 'p' );
-				choice.text.en = document.createElement( 'p' );
+				choice.button.innerHTML = choice.text;
 
 			}
 
@@ -234,22 +266,6 @@ var quiz = {
 
 			if ( !choice.button.parentNode )
 				choice.el.appendChild( choice.button );
-
-			if ( !choice.text.wrapper.parentNode ) {
-
-				// APPEND TEXT NODES TO TEXT EL
-				choice.el.appendChild( choice.text.wrapper );
-				choice.text.wrapper.appendChild( choice.text.zh );
-				choice.text.wrapper.appendChild( choice.text.en );
-
-			}
-
-			// SET TEXT OF CHOICE TEXT ELEMENTS
-			if ( theQuestion.choices[ i ].zh )
-				choice.text.zh.innerHTML = theQuestion.choices[ i ].zh;
-
-			if ( theQuestion.choices[ i ].en )
-				choice.text.en.innerHTML = theQuestion.choices[ i ].en;
 
 			// ADD EVENT LISTENER
 			// =======================================================================
@@ -338,12 +354,17 @@ var quiz = {
 		// APPEND PROGRESS BAR
 		this.response.article.parentNode.insertBefore( this.progress.el, this.response.article );
 
+		// ADD AND APPEND RIGHT/WRONG TEXT
+		this.response.header = document.createElement ('h2');
+
 		// ADD AND APPEND IMAGE
 		if ( !this.response.image )
 			this.response.image = document.createElement( 'img' );
 
-		if ( !this.response.parentNode && this.response.textWrapper.parentNode )
+		if ( !this.response.parentNode && this.response.textWrapper.parentNode ){
+			this.response.textWrapper.parentNode.insertBefore( this.response.header, this.response.textWrapper );
 			this.response.textWrapper.parentNode.insertBefore( this.response.image, this.response.textWrapper );
+		}
 
 		// ADD NEXT BUTTON
 		// ============================================================================
@@ -353,10 +374,10 @@ var quiz = {
 
 		// IF NOT LAST QUESTION › SET TEXT OF BUTTON TO REFLECT THAT
 		if ( this.currentQuestion < this.data.questions.length )
-			this.response.button.innerHTML = 'Next Question / 下一题'
+			this.response.button.innerHTML = (lang == 'zh' ? '下一题' : 'Next Question');
 
 		// ELSE › SET BUTTON TEXT TO FINISH QUIZ
-		else this.response.button.innerHTML = 'Finish Quiz! / 结束测试！';
+		else this.response.button.innerHTML = (lang == 'zh' ? '结束测试!' : 'Finish Quiz!');
 
 		// ADD CLICK EVENT TO NEXT QUESTION BUTTON
 		this.response.button.addEventListener( 'click', function ( ) {
@@ -438,8 +459,11 @@ var quiz = {
 
 		this.response.image.src = './images/' + image;
 
-		this.response.text.zh.innerHTML = '<strong class="correct">是啊！</strong>&nbsp;' + response.zh;
-		this.response.text.en.innerHTML = '<strong class="correct">Correct!</strong>&nbsp;' + response.en;
+		this.response.header.className = 'correct';
+		this.response.header.innerHTML = (lang == 'en' ? 'You got it!' : '是啊！');
+
+		this.response.text.zh.innerHTML = '<strong>是啊！</strong>&nbsp;' + response.zh;
+		this.response.text.en.innerHTML = '<strong>Correct!</strong>&nbsp;' + response.en;
 
 		return this;
 
@@ -456,8 +480,11 @@ var quiz = {
 
 		this.response.image.src = './images/' + image;
 
-		this.response.text.zh.innerHTML = '<strong class="incorrect">不是！</strong>&nbsp;' + response.zh;
-		this.response.text.en.innerHTML = '<strong class="incorrect">Wrong!</strong>&nbsp;' + response.en;
+		this.response.header.className = 'incorrect';
+		this.response.header.innerHTML = (lang == 'en' ? 'Nope!' : '不是！');
+
+		this.response.text.zh.innerHTML = '<strong>不是！</strong>&nbsp;' + response.zh;
+		this.response.text.en.innerHTML = '<strong>Wrong!</strong>&nbsp;' + response.en;
 
 		return this;
 
@@ -488,21 +515,19 @@ var quiz = {
 		resultsPage.textWrapper.classList.add( 'vertical-center' );
 
 		// ADD AND APPEND IMAGE
-		resultsPage.image = document.createElement( 'img' );
+		/*resultsPage.image = document.createElement( 'img' );
 		resultsPage.image.className = 'normal-image character';
-		resultsPage.textWrapper.insertBefore( resultsPage.image, resultsPage.text.zh );
+		resultsPage.article.appendChild( resultsPage.image );
+		*/
 
 		var moreInformation = document.createElement( 'div' );
 
 		resultsPage.article.appendChild( moreInformation );
 
 		resultsPage.followCTA = document.createElement( 'small' );
-		resultsPage.followCTA.innerHTML = '科握制造。了解更多<br>Produced by KAWO. Learn more'
+		resultsPage.followCTA.innerHTML = '邮人制造。了解更多<br>Produced by Mailman. Learn more'
+		resultsPage.followCTA.className = "readmore";
 		moreInformation.appendChild( resultsPage.followCTA );
-
-		resultsPage.logo = document.createElement( 'div' );
-		resultsPage.logo.className = 'logo logo-icon';
-		moreInformation.appendChild( resultsPage.logo );
 
 		// ON CLICK OF MORE INFORMATION › OPEN INFORMATION PAGE
 		moreInformation.addEventListener( 'click', function() {
@@ -523,49 +548,37 @@ var quiz = {
 		// ALTER PAGE ACCORDING TO SCORE
 		// ============================================================================
 
-		// DONT LET BE MROE THAN 100% THROUGH LOCAL STORAGE HACKS
+		// DONT LET BE MORE THAN 100% THROUGH LOCAL STORAGE HACKS
 		if ( correctAnswers.length > 20 ) var correct = '20';
 		else var correct = correctAnswers.length.toString();
 
 		var scoreEn = correct + '/' + this.data.questions.length.toString(),
 			scoreZh = this.data.questions.length.toString() + '题中的' + correct;
 
-		// IF THEY SCORED 80% OR HIGHER › DISPLAY DIGITAL MASTER PAGE
-		if ( correctAnswers.length / this.data.questions.length >= 0.8 ) {
+		// IF THEY SCORED 80% OR HIGHER › DISPLAY WELL DONE PAGE
+		if ( correctAnswers.length / this.data.questions.length >= 0.6 ) {
 
-			var levelImage = 'shifuKAWO.png',
-				levelMessageEn = '. <br>Congratulations! You\'re a digital shīfù!',
-				levelMessageZh = '题，恭喜你得到了‘数码师傅’的称号！',
-				titleMessage = '我是一个数码师傅。快来参加问答！I\'m a digital shīfù, are you? Take the quiz!';
-
-		}
-
-		// IF THEY SCORED BETWEEN 80% AND 30% › DISPLAY DIGITAL UNCLE PAGE
-		else if ( correctAnswers.length / this.data.questions.length >= 0.35 ) {
-
-			var levelImage = 'uncleKAWO.png',
-				levelMessageEn = '. <br>Not bad, you\'re a digital dàshū!',
-				levelMessageZh = '题，你可以得到‘数码大叔’的称号，看起来还不错嘛！',
-				titleMessage = '我是一个数码大叔。 快来参加问答！I\'m a digital dàshū. Take the quiz!';
+			var levelImage = 'welldone',
+				levelMessageEn = '<span class="level-message">Well done</span><br><br>',
+				titleMessage = 'I know China better than Donald Trump. Do you? Take the quiz!';
 
 		}
 
-		// ELSE › DISPLAY DIGITAL BABY PAGE
+		// ELSE › DISPLAY FIRED PAGE
 		else {
 
-			var levelImage = 'babyKAWO.png',
-				levelMessageEn = ' and are a digital bǎobǎo. Time to study!',
-				levelMessageZh = '题，看来你只能得到‘数码宝宝’的称号，还要继续努力啊！',
-				titleMessage = '我是一个数码宝宝。快来参加问答！I\'m a digital bǎobǎo. Take the quiz!';
+			var levelImage = 'fired',
+				levelMessageEn = '<span class="level-message">You\'re fired</span><br><br>',
+				titleMessage = 'Oh no! Trump knows China better than me!? Take the quiz!';
 
 		}
 
 		// SET INNER HTML OF TEXT
-		resultsPage.text.zh.innerHTML = '你答对了' + scoreZh + levelMessageZh;
-		resultsPage.text.en.innerHTML = 'You scored ' + scoreEn + levelMessageEn;
+		resultsPage.text.zh.innerHTML = levelMessageEn + '你答对了' + scoreZh;
+		resultsPage.text.en.innerHTML = levelMessageEn + 'You scored ' + scoreEn;
 
 		// SET CHARACTER IMAGE URL
-		resultsPage.image.src = './images/characters/' + levelImage;
+		resultsPage.article.className = levelImage;
 
 		// SET NEW TITLE FOR SHARING
 		var title = document.querySelectorAll( 'title' )[ 0 ];
@@ -624,22 +637,18 @@ var quiz = {
 		learnMore.el.id = 'splash-screen';
 		learnMore.el.classList.add( 'learn-more-screen' );
 
-		learnMore.logo = document.createElement( 'div' );
+		learnMore.logo = document.createElement( 'img' );
 		learnMore.logo.className = 'logo';
+		learnMore.logo.src = './images/assets/logo.png';
 		learnMore.textWrapper.parentNode.insertBefore( learnMore.logo, learnMore.textWrapper );
 
-		learnMore.text.zh.innerHTML = '从初稿，规划，再到发布，分析数据，KAWO帮助您的品牌在中国大放异彩。<br><a href="http://kawo.com/cn.html">在科握官方网站了解更多</a>';
-		learnMore.text.en.innerHTML = 'KAWO is an enterprise Weibo & WeChat management tool helping organizations take control of their brand in China. <br>Learn more at <a href="http://kawo.com">KAWO.com</a>';
-
-		// ADD FOLLOW INFORMATION TO CHOICE LIST
-		learnMore.followCTA = document.createElement( 'small' );
-		learnMore.followCTA.innerHTML = '最新详情请可以关注KAWO的微信。<br>Follow us on WeChat.'
-		learnMore.choiceList.appendChild( learnMore.followCTA );
+		learnMore.text.zh.innerHTML = '关注我们，即时了解中国最新的数字&社交资讯';
+		learnMore.text.en.innerHTML = 'Follow us for the latest in chinese digital and social media';
 
 		// ADD QR CODE
 		learnMore.qrCode = document.createElement( 'img' );
 		learnMore.qrCode.className = 'normal-image';
-		learnMore.qrCode.src = './images/assets/qr-code.jpg';
+		learnMore.qrCode.src = './images/assets/qr-code.png';
 		learnMore.article.appendChild( learnMore.qrCode );
 
 		// CLOSE RESPONSE SCREEN AND APPEND RESULTS SCREEN
@@ -683,8 +692,8 @@ window.onload = function () {
 		splash.el.classList.add( 'open' );
 
 		splash.textWrapper.className = 'splash-text-wrapper';
-		splash.text.zh.innerHTML = '你是数码<br>师傅吗?';
-		splash.text.en.innerHTML = 'Are you a <br>digital shīfù?';
+		splash.text.zh.innerHTML = '你比<br><span>Donald Trump?</span><br>更理解<br><span>中国</span>吗？';
+		splash.text.en.innerHTML = 'Do you know <span>China</span><br> better than <span>Donald <br>Trump?</span>';
 		splash.text.en.style.textTransform = 'uppercase';
 
 		// ADD NEXT BUTTON
@@ -693,11 +702,26 @@ window.onload = function () {
 		splash.choiceList.appendChild( splash.button );
 
 		// ADD TEXT TO BUTTON
-		splash.button.innerHTML = '<span class="btn-zh">开始测试</span>Get Started'
+		splash.button.innerHTML = (lang == 'en' ? 'Take the quiz' : '开始测试');
 
-		splash.logo = document.createElement( 'div' );
-		splash.logo.className = 'logo logo-icon';
-		splash.choiceList.appendChild( splash.logo );
+		// ADD LANGUAGE CHANGE LINK
+		splash.langchange = document.createElement( 'a' );
+		splash.langchange.href = '#' + (lang == 'en' ? 'zh' : 'en');
+		splash.langchange.innerHTML = (lang == 'en' ? '改变中文' : 'English')
+		
+		splash.langchange.className = 'langchange';
+		splash.langchange.addEventListener( 'click', function ( ) {
+			window.ga && ga( 'send', 'event', 'change-language', 'click', 'Changed language' );
+			window.mixpanel && mixpanel.track( 'change-language' );
+
+			if(lang == 'en')
+				lang = 'zh';
+			else
+				lang = 'en';
+
+			window.onload();
+		} );
+		splash.choiceList.appendChild( splash.langchange );
 
 		document.getElementById( 'target' ).appendChild( splash.el );
 
@@ -710,7 +734,7 @@ window.onload = function () {
 		for ( var i = 0; i < 20; i++ ) {
 
 			// IF IN CORRECT LENGTH › PRELOAD CORRECT IMAGES
-			if ( i < 11 ) {
+			if ( i < 11 && images.correct[ i ] ) {
 
 				preloaded[ i ] = new Image()
 				preloaded[ i ].src = './images/' + images.correct[ i ];
@@ -718,7 +742,7 @@ window.onload = function () {
 			}
 
 			// ELSE › PRELOAD INCORRECT IMAGES
-			else {
+			else if ( images.incorrect[ i - 10 ] ) {
 
 				preloaded[ i ] = new Image()
 				preloaded[ i ].src = './images/' + images.incorrect[ i - 10 ];
@@ -731,48 +755,14 @@ window.onload = function () {
 		// ===============================================================================
 		splash.button.addEventListener( 'click', function ( ) {
 
-			window.ga && ga( 'send', 'event', 'get-started', 'click', 'Opened introduction page' );
+			window.ga && ga( 'send', 'event', 'quiz-started', 'click', 'Quiz started' );
 
-			window.mixpanel && mixpanel.track( 'get-started' );
+			window.mixpanel && mixpanel.track( 'quiz-started' );
 
-			var intro = new Screen( 'h2' );
-
-			intro.el.id = 'intro-screen';
-
-			// ADD AND APPEND IMAGE
-			intro.image = document.createElement( 'img' );
-			intro.image.src = './images/icon_019.gif';
-
-			intro.textWrapper.parentNode.insertBefore( intro.image, intro.textWrapper );
-
-			intro.text.zh.innerHTML = '这个测试将会考验你对2015年中国数码行业的了解。你是一个数码师傅么？点进来看看吧。';
-			intro.text.en.innerHTML = 'This quiz tests your knowledge of the Chinese digital industry in 2015. Are you a digital shīfù?';
-
-			// ADD NEXT BUTTON
-			intro.button = document.createElement( 'button' );
-			intro.button.className = 'btn btn-red';
-			intro.choiceList.appendChild( intro.button );
-
-			// ADD TEXT TO BUTTON
-			intro.button.innerHTML = 'Start Quiz / 开始测试'
-
-			intro.logo = document.createElement( 'div' );
-			intro.logo.className = 'logo logo-icon';
-			intro.choiceList.appendChild( intro.logo );
-
-			// INITIATE QUIZ ON BUTTON CLICK
-			intro.button.addEventListener( 'click', function ( ) {
-
-				window.ga && ga( 'send', 'event', 'quiz-started', 'click', 'Quiz started' );
-
-				window.mixpanel && mixpanel.track( 'quiz-started' );
-
-				quiz.init();
-
-			} );
+			quiz.init();
 
 			// CLOSE SPLASH SCREEN
-			quiz.closeScreen( null, intro.el, splash.el );
+			//quiz.closeScreen( null, intro.el, splash.el );
 
 		} );
 

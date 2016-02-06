@@ -103,8 +103,7 @@ gulp.task( 'deploy', [ 'build' ], function() {
 
 	// REPLACE GOOGLE ANALYTICS ID
 	gulp.src([ 'dist/**/*.html' ])
-    	.pipe( replace( 'UA-39611373-2', 'UA-39611373-4' ) )
-    	.pipe( replace( 'staging.trump.mailmangroup.com', 'auto' ) )
+    	.pipe( replace( 'staging.trump.mailmangroup.com', 'trump.mailmangroup.com' ) )
     	.pipe( gulp.dest( 'dist/' ) );
 
 	return rsync({

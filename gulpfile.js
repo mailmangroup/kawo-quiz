@@ -6,7 +6,7 @@ var gulp = require( 'gulp' ),
 	minifyCSS = require( 'gulp-minify-css' ),
 	uglify = require( 'gulp-uglify' ),
 	replace = require( 'gulp-replace' ),
-	rsync = require( 'rsyncwrapper' ).rsync;
+	rsync = require( 'rsyncwrapper' );
 
 // CREATE WEB SERVER
 // ===========================================================================================

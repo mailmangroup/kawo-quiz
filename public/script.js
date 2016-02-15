@@ -75,7 +75,7 @@ function imageSelect ( options ) {
 		}
 
 	}*/
-	
+
 	// wouldn't the following be much more efficient? :
 	if( images && images.hasOwnProperty(options) ) {
 
@@ -84,7 +84,7 @@ function imageSelect ( options ) {
 
 		// GET THE IMAGE URL FROM THE ARRAY
 		var img = images[ options ][ random ];
-		
+
 		// PUSH IMAGE URL TO SEEN IMAGES ARRAY
 		seenImages[ options ].push( img );
 
@@ -93,7 +93,7 @@ function imageSelect ( options ) {
 
 		// RETURN THE IMAGE
 		return img;
-	
+
 	}
 
 }
@@ -515,10 +515,13 @@ var quiz = {
 		resultsPage.textWrapper.classList.add( 'vertical-center' );
 
 		// ADD AND APPEND IMAGE
-		/*resultsPage.image = document.createElement( 'img' );
+		resultsPage.image = document.createElement( 'img' );
 		resultsPage.image.className = 'normal-image character';
 		resultsPage.article.appendChild( resultsPage.image );
-		*/
+		resultsPage.image.style.width = '0px';
+		resultsPage.image.style.height = '0px';
+		resultsPage.image.src = './images/assets/wechat_og.jpg';
+
 
 		var moreInformation = document.createElement( 'div' );
 
@@ -708,7 +711,7 @@ window.onload = function () {
 		splash.langchange = document.createElement( 'a' );
 		splash.langchange.href = '#' + (lang == 'en' ? 'zh' : 'en');
 		splash.langchange.innerHTML = (lang == 'en' ? '改变中文' : 'English')
-		
+
 		splash.langchange.className = 'langchange';
 		splash.langchange.addEventListener( 'click', function ( ) {
 			window.ga && ga( 'send', 'event', 'change-language', 'click', 'Changed language' );
